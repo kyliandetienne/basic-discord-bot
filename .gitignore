@@ -1,0 +1,15 @@
+﻿node_modules/
+.npm/
+.next/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+dist/
+build/
+*.log
+
+# Sécurité bots / tokens
+config.js
+config.json

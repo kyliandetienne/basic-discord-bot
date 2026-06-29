@@ -1,0 +1,26 @@
+{
+  "name": "bot-gestion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "1faillible",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.8.1",
+    "@discordjs/rest": "^1.7.1",
+    "axios": "^1.6.8",
+    "bot-gestion": "file:",
+    "bot-v14": "file:",
+    "colors": "^1.4.0",
+    "dbd-capriham-theme": "^1.3.0",
+    "discord-api-types": "^0.37.41",
+    "discord-dashboard": "^2.3.62",
+    "discord.js": "^14.15.3",
+    "fs": "^0.0.1-security",
+    "node.js": "^0.0.1-security"
+  },
+  "keywords": [],
+  "description": ""
+}
