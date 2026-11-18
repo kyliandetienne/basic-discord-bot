@@ -2,8 +2,6 @@
 .npm/
 .next/
 .env
-.env.*
-!.env.example
 .venv/
 __pycache__/
 dist/

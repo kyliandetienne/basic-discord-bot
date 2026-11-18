@@ -19,6 +19,7 @@
     "discord-dashboard": "^2.3.62",
     "discord.js": "^14.15.3",
     "fs": "^0.0.1-security",
+    "dotenv": "^16.4.5",
     "node.js": "^0.0.1-security"
   },
   "keywords": [],
