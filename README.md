@@ -31,7 +31,6 @@ C'est **uniquement l'architecture** - c'est-à-dire que les commandes présenté
 
 2. **Configurer les variables d'environnement :**
    - Créer un fichier `.env` basé sur `.env.example`
-   - Copier les valeurs depuis `config.js` vers les variables `.env`
    - Remplacer les valeurs "placeholder" avec vos vraies informations Discord
 
 3. **Lancer le bot :**
@@ -70,9 +69,9 @@ client.slashcommand.push(
 
 | Paramètre | Emplacement | Description |
 |-----------|-------------|-------------|
-| `TOKEN` | `.env` / `config.js` | Token Discord de votre bot application |
+| `TOKEN` | `.env` | Token Discord de votre bot application |
 | `PREFIX` | `/config.js` | Prefixe pour les commandes classiques |
-| `GUILD_ID` | `.env` / `config.js` | ID du serveur (multi-servers: laissez vide) |
+| `GUILD_ID` | `.env` | ID du serveur (multi-servers: laissez vide) |
 | `COLOR` | `config.js` | Couleur du embed du bot |
 | `STAFF`, `WL` | `config.js` | IDs de modération/staff/whitelist |
 
@@ -80,7 +79,7 @@ client.slashcommand.push(
 
 ⚠️ **IMPORTANT :** 
 - Ne jamais commiter le fichier `.env` avec votre token réel dans Git
-- Le fichier `.env` devrait toujours être ignoré par `.gitignore` (créer si absent)
+- Le fichier `.env` sera toujours être ignoré par `.gitignore`, ne pas modifier
 - Votre token Discord est révélé via l'API Discord lors du premier `login()`
 
 ## 📦 Dépendances
@@ -95,8 +94,7 @@ Le projet utilise les paquets Discord.js et leurs composants :
 ## 📞 Support
 
 Besoin d'aide ? 
-- Reportez vos questions sur la page de support du bot
-- Liens disponibles via le fichier `.env.example` dans la section SUPPORT
+- Reportez vos questions sur mon serveur discord: https://discord.gg/cakYs9ZTaj
 
 ## ⚖️ Licence
 
